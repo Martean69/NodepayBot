@@ -12,10 +12,14 @@ from colorama import init, Fore, Style
 import itertools
 import threading
 import sys
+import pyfiglet
+from colorama import Fore
 
 # Inisialisasi colorama
 init(autoreset=True)
 
+text = pyfiglet.figlet_format("Martin Si Hacker Sunda Awkokwko")
+print(Fore.YELLOW + text)
 # Banner
 print(f"{Fore.CYAN}[+]==========================[+]")
 print(f"{Fore.CYAN}[+]===NODEPAY PROXY SCRIPT===[+]")
