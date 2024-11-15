@@ -17,9 +17,11 @@ import sys
 init(autoreset=True)
 
 # Banner
-print(f"{Fore.CYAN}[+]====================[+]")
-print(f"{Fore.CYAN}[+]NODEPAY PROXY SCRIPT[+]")
-print(f"{Fore.CYAN}[+]====================[+]")
+print(f"{Fore.CYAN}[+]==========================[+]")
+print(f"{Fore.CYAN}[+]===NODEPAY PROXY SCRIPT===[+]")
+print(f"{Fore.CYAN}[+]==========MADE BY=========[+]")
+print(f"{Fore.CYAN}[+]==MARTIN SI HACKER SUNDA==[+]")
+print(f"{Fore.CYAN}[+]==========================[+]")
 
 # Constants
 PING_INTERVAL = 1
